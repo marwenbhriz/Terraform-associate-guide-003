@@ -31,6 +31,26 @@ terraform version
 rm -rf /usr/local/bin/terraform
 ```
 
-## Step-01: Introduction
+## Step-03: MACOS: IDE for Terraform - VS Code Editor
+01. Download [Microsoft Visual Studio Code Editor](https://code.visualstudio.com/download). 
+02. Install [Hashicorp Terraform Plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform).
 
-## Step-01: Introduction
+## Step-04: MACOS: Install GCLOUD CLI
+01. Download [GCloud CLI](https://cloud.google.com/sdk/docs/install?hl=fr#mac). 
+02. Install [GCloud CLI](https://cloud.google.com/sdk/docs/install?hl=fr#mac).
+```sh
+# Install gcloud cli
+./google-cloud-sdk/install.sh
+```
+
+## Step-05: MACOS: Configure AWS Credentials
+```sh
+# gcloud login and then open the link from browser and copy/past the code received after authentication
+gcloud auth login
+
+# gcloud set account/project
+export ACCOUNT_ID=
+export PROJECT_ID=
+gcloud config set account $ACCOUNT_ID
+gcloud config set project $PROJECT_ID
+```
