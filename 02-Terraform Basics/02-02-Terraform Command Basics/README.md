@@ -1,7 +1,8 @@
 # Terraform Command Basics
 
 ## Step-01: Introduction
-Understand basic Terraform Commands
+Understand basic Terraform Commands.
+
     - terraform init
     - terraform validate
     - terraform plan
@@ -22,6 +23,7 @@ Understand basic Terraform Commands
 ## Step-06: Conclusion
 Re-iterate what we have learned in this section.
 Learned about Important Terraform Commands.
+
     - terraform init
     - terraform validate
     - terraform plan
